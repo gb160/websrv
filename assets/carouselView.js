@@ -235,6 +235,8 @@ async function renderMainContentCarousel(items, fadeout = true) {
         }
         generateCursorSnapOverlays();
     })));
+    //no idea if this is the best approach or place to call this....seems to work well though.
+    setDynamicScroll();    
 }
 
 
